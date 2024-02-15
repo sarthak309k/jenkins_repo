@@ -9,6 +9,10 @@ pipeline{
 			echo "Trigger Sample11"
 			echo "Updated Trigger"
 			bat "javac -version"
+			bat "F:"
+			bat "cd javapr"
+			bat "cd F:\javapr\practiceEx"
+			bat "java Greater"
 			}
 		}
   }
