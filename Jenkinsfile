@@ -6,7 +6,7 @@ pipeline{
 		  steps{echo "clean the project"
 			bat "mvn -version"
 			bat "java -version"
-			echo "Trigger Sample1"
+			echo "Trigger Sample11"
 			}
 		}
   }
